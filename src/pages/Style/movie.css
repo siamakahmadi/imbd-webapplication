@@ -1,0 +1,10 @@
+.searchInputBg {
+  background-color: #00051f;
+}
+.searchIcon{
+    background-image: url('./icon/linear/search-normal.svg');
+    background-repeat: no-repeat;
+}
+.searchSection{
+border-color: #556FE5;
+}
