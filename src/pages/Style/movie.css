@@ -8,3 +8,7 @@
 .searchSection{
 border-color: #556FE5;
 }
+.scroll{
+  width: 500px;
+  overflow: scroll;
+}
