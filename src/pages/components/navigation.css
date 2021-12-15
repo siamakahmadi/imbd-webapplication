@@ -1,3 +1,60 @@
-.navigation{
-   
+.navItem {
+  padding: 10px 0 10px 10px;
+  height: fit-content;
+  display: inline-flex;
+  transition: all 0.3s;
+  align-items: center;
+  align-content: space-between;
+  text-decoration: none;
+  color: black;
+  padding: 10px 0 10px 15px;
 }
+.itemSelect {
+  /* background-color: #ffffff; */
+  /* border-radius: 13px; */
+  height: fit-content;
+  padding: 10px 0 10px 15px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  align-content: space-between;
+  transition: all 0.2s;
+}
+
+.iconBackground {
+  background-repeat: no-repeat;
+  background-position: center left 5px;
+}
+
+/* Movie Icon  */
+
+.movieIcon {
+  background-image: url("../Style/icon/linear/video.svg");
+}
+
+.movieSelectIcon {
+  background-image: url("../Style/icon/Bold/video.svg");
+}
+
+/* News Icon  */
+.newsIcon {
+    background-image: url("../Style/icon/linear/book.svg");
+  }
+  
+  .newsSelectIcon {
+    background-image: url("../Style/icon/Bold/book.svg");
+  }
+
+  
+/* Shows Icon  */
+.showsIcon {
+    background-image: url("../Style/icon/linear/video-play.svg");
+  }
+  
+  .showsSelectIcon {
+    background-image: url("../Style/icon/Bold/Frame\ 15.svg");
+  }
+
+
