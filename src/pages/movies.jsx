@@ -15,8 +15,8 @@ export default function Movies() {
 
       <div>
         <div className="flex justify-between mt-4 items-baseline ">
-          <h1 className="text-lg font-semibold">Today Shows</h1>
-          <span className="text-sm text-blue-600">See More</span>
+          <h1 className="sm:text-lg font-semibold">Today Shows</h1>
+          <span className="sm:text-sm text-blue-600">See More</span>
         </div>
 
 
@@ -34,6 +34,26 @@ export default function Movies() {
           </div>
 
 
+
+          <div className=" w-44 h-55 rounded-md mr-8 ">
+            <div className="w-40 h-55">
+              <img className=" inset-0 w-full h-full object-cover rounded-xl" src="https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217"  alt="" />
+            </div>
+            <div className="flex flex-col mt-2">
+              <h1 className="text-md font-bold"> Mscssovie Title</h1>
+              <p className="text-xs mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+          </div>
+
+          <div className=" w-44 h-55 rounded-md mr-8 ">
+            <div className="w-40 h-55">
+              <img className=" inset-0 w-full h-full object-cover rounded-xl" src="https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217"  alt="" />
+            </div>
+            <div className="flex flex-col mt-2">
+              <h1 className="text-md font-bold"> Mscssovie Title</h1>
+              <p className="text-xs mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+          </div>
 
           <div className=" w-44 h-55 rounded-md mr-8 ">
             <div className="w-40 h-55">
@@ -99,7 +119,27 @@ export default function Movies() {
 
           <div className=" w-44 h-55 rounded-md mr-8 ">
             <div className="w-40 h-55">
-              <img className=" inset-0 w-full h-full object-cover rounded-xl" src="https://img.buzzfeed.com/buzzfeed-static/static/2020-10/27/21/asset/2eae1b7041a8/sub-buzz-2749-1603833440-24.jpg"  alt="" />
+              <img className=" inset-0 w-full h-full object-cover rounded-xl" src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/169241483/original/af413b406d3cb2eedc149baf2a8b87156d86d56f/make-your-movie-or-short-film-poster.jpg"  alt="" />
+            </div>
+            <div className="flex flex-col mt-2">
+              <h1 className="text-md font-bold"> Mscssovie Title</h1>
+              <p className="text-xs mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+          </div>
+
+          <div className=" w-44 h-55 rounded-md mr-8 ">
+            <div className="w-40 h-55">
+              <img className=" inset-0 w-full h-full object-cover rounded-xl" src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/169241483/original/af413b406d3cb2eedc149baf2a8b87156d86d56f/make-your-movie-or-short-film-poster.jpg"  alt="" />
+            </div>
+            <div className="flex flex-col mt-2">
+              <h1 className="text-md font-bold"> Mscssovie Title</h1>
+              <p className="text-xs mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, </p>
+            </div>
+          </div>
+
+          <div className=" w-44 h-55 rounded-md mr-8 ">
+            <div className="w-40 h-55">
+              <img className=" inset-0 w-full h-full object-cover rounded-xl" src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/169241483/original/af413b406d3cb2eedc149baf2a8b87156d86d56f/make-your-movie-or-short-film-poster.jpg"  alt="" />
             </div>
             <div className="flex flex-col mt-2">
               <h1 className="text-md font-bold"> Mscssovie Title</h1>
@@ -109,6 +149,7 @@ export default function Movies() {
 
 
         </div>
+        
       </div>
 
 

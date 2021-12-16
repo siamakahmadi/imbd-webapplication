@@ -20,8 +20,9 @@ function App() {
           </div>
         </div>
 
-        <div className="absolute bottom-0 w-full h-14 ">
-          <Navigation />
+        <div className="fixed bottom-0 w-full h-14  mainColor  lg:w-60 lg:left-1/3 lg:rounded-full   lg:bottom-2 ">
+          
+          <Navigation  />
         </div>
       </div>
     
