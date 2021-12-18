@@ -1,0 +1,50 @@
+{
+  "recentlymovies": [
+    {
+      "Title": "The Hand of God",
+      "Summary": "The story of a boy in the tumultuous Naples of the 1980s. Sorrentino's most personal film yet is a tale of fate and family, sports and cinema, love and loss.",
+      "Img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThe_Hand_of_God_(film)&psig=AOvVaw3DTwHKymrgqeeyQT79WyWN&ust=1639901576872000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNC6jsrz7PQCFQAAAAAdAAAAABAD",
+      "IMDb RATING": "7.7",
+      "Description": "From Academy Award-winning writer and director Paolo Sorrentino (Il Divo, The Great Beauty, The Young Pope), comes the story of a boy, Fabietto Schisa, in the tumultuous Naples of the 1980s. The Hand of God is a story full of unexpected joys, such as the arrival of football legend Diego Maradona, and an equally unexpected tragedy. Fate plays its part, joy and tragedy intertwine, and Fabietto's future is set in motion. Sorrentino returns to his hometown to tell his most personal story, a tale of fate and family, sports and cinema, love and loss",
+      "Production Year": "2021",
+      "Time": "2h 10min",
+      "Genres": "Drama",
+      "Actors": [{}]
+    },
+    {
+      "Title": "Back to the Outback",
+      "Summary": "Tired of being locked in a reptile house where humans gawk at them like they're monsters, a group of Australia's deadliest creatures plot a daring escape from their zoo to the Outback.",
+      "Img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSasMKAzH6JkUVdmlDMYlaMD0FhR4CwZTRZxrAieFduPkdDXC5c",
+      "IMDb RATING": "6.7",
+      "Description": "Tired of being locked in a reptile house where humans gawk at them like they're monsters, a ragtag group of Australia's deadliest creatures plot a daring escape from their zoo to the Outback, a place where they'll fit in without being judged for their scales and fangs. Leading the group is Maddie, a poisonous snake with a heart of gold, who bands together with a self-assured Thorny Devil lizard Zoe, a lovelorn hairy spider Frank, and a sensitive scorpion Nigel. But when their nemesis Pretty Boy, a cute but obnoxious koala unexpectedly joins their escape, Maddie and the gang have no choice but to take him with them. So begins a hair-raising and hilarious road trip across Australia, as they are pursued by a zookeeper Chaz and his adventure-seeking mini-me.",
+      "Production Year": "2021",
+      "Time": "1h 35min",
+      "Genres": "Animation Adventure Comedy Family",
+      "Actors": [{}]
+    }
+  ],
+  "trendingmovies": [
+    {
+      "Title": "The Hand of God",
+      "Summary": "The story of a boy in the tumultuous Naples of the 1980s. Sorrentino's most personal film yet is a tale of fate and family, sports and cinema, love and loss.",
+      "Img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThe_Hand_of_God_(film)&psig=AOvVaw3DTwHKymrgqeeyQT79WyWN&ust=1639901576872000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNC6jsrz7PQCFQAAAAAdAAAAABAD",
+      "IMDb RATING": "7.7",
+      "Description": "From Academy Award-winning writer and director Paolo Sorrentino (Il Divo, The Great Beauty, The Young Pope), comes the story of a boy, Fabietto Schisa, in the tumultuous Naples of the 1980s. The Hand of God is a story full of unexpected joys, such as the arrival of football legend Diego Maradona, and an equally unexpected tragedy. Fate plays its part, joy and tragedy intertwine, and Fabietto's future is set in motion. Sorrentino returns to his hometown to tell his most personal story, a tale of fate and family, sports and cinema, love and loss",
+      "Production Year": "2021",
+      "Time": "2h 10min",
+      "Genres": "Drama",
+      "Actors": [{}]
+    },
+    {
+      "Title": "Back to the Outback",
+      "Summary": "Tired of being locked in a reptile house where humans gawk at them like they're monsters, a group of Australia's deadliest creatures plot a daring escape from their zoo to the Outback.",
+      "Img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSasMKAzH6JkUVdmlDMYlaMD0FhR4CwZTRZxrAieFduPkdDXC5c",
+      "IMDb RATING": "6.7",
+      "Description": "Tired of being locked in a reptile house where humans gawk at them like they're monsters, a ragtag group of Australia's deadliest creatures plot a daring escape from their zoo to the Outback, a place where they'll fit in without being judged for their scales and fangs. Leading the group is Maddie, a poisonous snake with a heart of gold, who bands together with a self-assured Thorny Devil lizard Zoe, a lovelorn hairy spider Frank, and a sensitive scorpion Nigel. But when their nemesis Pretty Boy, a cute but obnoxious koala unexpectedly joins their escape, Maddie and the gang have no choice but to take him with them. So begins a hair-raising and hilarious road trip across Australia, as they are pursued by a zookeeper Chaz and his adventure-seeking mini-me.",
+      "Production Year": "2021",
+      "Time": "1h 35min",
+      "Genres": "Animation Adventure Comedy Family",
+      "Actors": [{}]
+    }
+  ]
+}

@@ -1,17 +1,35 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import "./Style/movie.css";
 import MovieCard from "./components/movieCard";
 
 export default function Movies() {
+
+  const [movies, setMovies] = useState([]);
+  const [trendMovies, settrendMovies] = useState([]);
+
+  useEffect(()=>{
+    fetch('http://localhost:3000/recentlymovies')
+    .then(Response=> Response.json())
+    .then(movies=>setMovies(movies));
+
+    fetch('http://localhost:3000/trendingmovies')
+    .then(Response=> Response.json())
+    .then(trendMovies=>settrendMovies(trendMovies));
+  }
+  ,[]);
+
+
+  const moviedetail = movies.map(detail=> <MovieCard title={detail.Title} image={detail.Img} caption={detail.Summary} />) 
+  
   return (
     <div>
-      <div className="rounded-full w-full h-12 flex border-solid border-2 searchSection">
+
+      <div className="rounded-full w-full h-12 flex ">
         <input
           type="text"
-          className=" searchInputBg w-full h-full rounded-full "
+          className=" searchInputBg w-full h-full rounded-full  border-solid border-2 border-blue-600"
           placeholder="Type Movie Name"
         />
-        <div className="searchIcon w-24 h-24"> </div>
       </div>
 
       <div>
@@ -24,12 +42,11 @@ export default function Movies() {
 
         <div className=" flex scroll w-full mt-4">
 
-          <MovieCard title={"MoonLight"} caption={"A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him."} uri={'https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217'}/>
-          <MovieCard title={"MoonLight"} caption={"A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him."} uri={'https://maxcdn.icons8.com/app/uploads/2019/05/poster-for-movie.png'}/>
-          <MovieCard title={"MoonLight"} caption={"A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him."} uri={'https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/169241483/original/af413b406d3cb2eedc149baf2a8b87156d86d56f/make-your-movie-or-short-film-poster.jpg'}/>
-          <MovieCard title={"MoonLight"} caption={"A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him."} uri={'https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217'}/>
-          <MovieCard title={"MoonLight"} caption={"A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him."} uri={'https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217'}/>
-
+          {!movies.length ? <h3>Loading Movie ...</h3> : 
+          <>
+          {moviedetail}
+          </>
+          }
 
 
         </div>
@@ -68,7 +85,7 @@ export default function Movies() {
 
         <div className=" flex scroll w-full mt-4">
 
-  
+        
         <MovieCard title={"MoonLight"} caption={"A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him."} uri={'https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217'}/>
 
         </div>

@@ -1,13 +1,20 @@
-.searchInputBg {
-  background-color: #00051f;
-}
+
 .searchIcon{
-    background-image: url('./icon/linear/search-normal.svg');
+    
     background-repeat: no-repeat;
 }
-.searchSection{
-border-color: #556FE5;
+
+.searchInputBg{
+  background-color: #00051f;
+  background-image: url('./icon/linear/search-normal.svg');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
 }
+.searchInputBg:focus{
+  border: none;
+}
+
 .scroll{
   overflow: scroll;
 

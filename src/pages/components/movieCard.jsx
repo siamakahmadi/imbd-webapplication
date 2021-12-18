@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function MovieCard({uri , title , caption}) {
+export default function MovieCard({image , title , caption}) {
     return (
         <div>
             <div className=" w-44 h-55 rounded-md mr-8 ">
             <div className="w-40 h-55">
-              <img className=" inset-0 w-full h-full object-cover rounded-xl" src={uri}  alt="" />
+              <img className=" inset-0 w-full h-full object-cover rounded-xl" src={image}  alt="" />
             </div>
             <div className="flex flex-col mt-2">
               <h1 className="text-md font-bold">{title}</h1>

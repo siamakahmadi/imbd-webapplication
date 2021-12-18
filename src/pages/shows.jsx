@@ -5,13 +5,13 @@ import MovieCard from "./components/movieCard";
 export default function Movies() {
   return (
     <div>
-      <div className="rounded-full w-full h-12 flex border-solid border-2 searchSection">
+      
+      <div className="rounded-full w-full h-12 flex ">
         <input
           type="text"
-          className=" searchInputBg w-full h-full rounded-full "
+          className=" searchInputBg w-full h-full rounded-full  border-solid border-2 border-blue-600"
           placeholder="Type Movie Name"
         />
-        <div className="searchIcon w-24 h-24"> </div>
       </div>
 
       <div>
