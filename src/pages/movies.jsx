@@ -47,19 +47,13 @@ export default function Movies() {
 
           {!movies.length ? <h3>Loading Movie ...</h3> : 
           <>
-          {TrendMovie}
+          {moviedetail}
           </>
           }
 
 
         </div>
       </div>
-
-
-
-
-
-
 
       <div>
         <div className="flex justify-between mt-4 items-baseline ">
@@ -74,7 +68,7 @@ export default function Movies() {
   
         {!movies.length ? <h3>Loading Movie ...</h3> : 
           <>
-          {moviedetail}
+          {TrendMovie}
           </>
           }
 
