@@ -19,8 +19,11 @@ export default function Movies() {
   ,[]);
 
 
-  const moviedetail = movies.map(detail=> <MovieCard title={detail.Title} image={detail.Img} caption={detail.Summary} />) 
-  
+  const moviedetail = movies.map(detail=> <MovieCard title={detail.Title} image={detail.Img} caption={detail.Summary} />) ;
+  const TrendMovie = trendMovies.map(detail=> <MovieCard title={detail.Title} image={detail.Img} caption={detail.Summary} />) ;
+
+
+
   return (
     <div>
 
@@ -44,7 +47,7 @@ export default function Movies() {
 
           {!movies.length ? <h3>Loading Movie ...</h3> : 
           <>
-          {moviedetail}
+          {TrendMovie}
           </>
           }
 
@@ -69,7 +72,11 @@ export default function Movies() {
         <div className=" flex scroll w-full mt-4">
 
   
-        <MovieCard title={"MoonLight"} caption={"A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him."} uri={'https://cdn.pastemagazine.com/www/system/images/photo_albums/best-movie-posters-2016/large/moonlight-ver2-xlg.jpg?1384968217'}/>
+        {!movies.length ? <h3>Loading Movie ...</h3> : 
+          <>
+          {moviedetail}
+          </>
+          }
 
         </div>
         
