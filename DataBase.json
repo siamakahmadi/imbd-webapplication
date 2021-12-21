@@ -2,6 +2,7 @@
   "recentlymovies": [
     {
       "Title": "Back to the Outback",
+      "Slug":"Back_to_the_Outback",
       "Summary": "Tired of being locked in a reptile house where humans gawk at them like they're monsters, a group of Australia's deadliest creatures plot a daring escape from their zoo to the Outback.",
       "Img": "https://de.web.img3.acsta.net/pictures/21/10/26/16/17/2610555.jpg",
       "IMDb RATING": "6.7",
@@ -12,6 +13,7 @@
       "Actors": [{}]
     },{
       "Title": "The Unforgivable",
+      "Slug":"The_Unforgivable",
       "Summary": "A notorious criminal must break an evil curse in order to rescue an abducted girl who has mysteriously disappeared.",
       "Img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSasMKAzH6JkUVdmlDMYlaMD0FhR4CwZTRZxrAieFduPkdDXC5c",
       "IMDb RATING": "4.2",
@@ -21,7 +23,8 @@
       "Genres": "Action Sci-Fi Thriller",
       "Actors": [{}]
     },{
-      "Title": "Ron's Gone Wrong",
+      "Title": "Rons_Gone Wrong",
+      "Slug":"Ron's Gone_Wrong",
       "Summary": "The story of Barney, an awkward middle-schooler and Ron, his new walking, talking, digitally-connected device. Ron's malfunctions set against the backdrop of the social media age launch them on a journey to learn about true friendship.",
       "Img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRE7TOTGFGr1TsgSw1zAT1Pz-2UyiG7NLWDfjvo2ACul70dk4uu",
       "IMDb RATING": "7.0",
@@ -32,6 +35,7 @@
       "Actors": [{}]
     },{
       "Title": "Without Remorse",
+      "Slug":"Without_Remorse",
       "Summary": "An elite Navy SEAL, goes on a path to avenge his wife's murder only to find himself inside of a larger conspiracy.",
       "Img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcREGjjNFbbvp41YGg942p8cir2cbsKMcgCRT0WOAkqyvmNlps1c",
       "IMDb RATING": "5.8",
@@ -42,6 +46,7 @@
       "Actors": [{}]
     },{
       "Title": "No Time to Die",
+      "Slug":"No_Time_to_Die",
       "Summary": "James Bond has left active service. His peace is short-lived when Felix Leiter, an old friend from the CIA, turns up asking for help, leading Bond onto the trail of a mysterious villain armed with dangerous new technology.",
       "Img": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTjsL_VQnwmAa-wuEARqPxzJRF2q6j9RJwFeNSan_-INrXXY6Yy",
       "IMDb RATING": "7.4",
@@ -52,6 +57,7 @@
       "Actors": [{}]
     },{
       "Title": "Joe Bell",
+      "Slug":"Joe_Bell",
       "Summary": "The true story of a small town, working class father who embarks on a solo walk across the U.S. to crusade against bullying after his son is tormented in high school for being gay.",
       "Img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7LGH2Mt2ydjOWR9BtOXH6_XGHWrGO8axDmF9m9HXwMdw3Tf7w",
       "IMDb RATING": "5.7",
@@ -62,6 +68,7 @@
       "Actors": [{}]
     },{
       "Title": "Don't Breathe 2",
+      "Slug":"Dont_Breathe_2",
       "Summary": "The sequel is set in the years following the initial deadly home invasion, where Norman Nordstrom (Stephen Lang) lives in quiet solace until his past sins catch up to him.",
       "Img": "https://de.web.img2.acsta.net/pictures/21/07/12/11/54/5930962.jpg",
       "IMDb RATING": "6.1",
@@ -72,6 +79,7 @@
       "Actors": [{}]
     },{
       "Title": "The Power of the Dog",
+      "Slug":"The_Power_of_the_Dog",
       "Summary": "Charismatic rancher Phil Burbank inspires fear and awe in those around him. When his brother brings home a new wife and her son, Phil torments them until he finds himself exposed to the possibility of love.",
       "Img": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRG1YExkz-5ZSf7gxoWkpGw8B0EzlVK4QQAiYjJv0cGqSl1sndH",
       "IMDb RATING": "7.0",
@@ -85,6 +93,7 @@
   "trendingmovies": [
     {
       "Title": "The Hand of God",
+      "Slug":"The_Hand_of_God",
       "Summary": "The story of a boy in the tumultuous Naples of the 1980s. Sorrentino's most personal film yet is a tale of fate and family, sports and cinema, love and loss.",
       "Img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FThe_Hand_of_God_(film)&psig=AOvVaw3DTwHKymrgqeeyQT79WyWN&ust=1639901576872000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNC6jsrz7PQCFQAAAAAdAAAAABAD",
       "IMDb RATING": "7.7",
@@ -96,6 +105,7 @@
     },
     {
       "Title": "Back to the Outback",
+      "Slug":"Back_to_the_Outback",
       "Summary": "Tired of being locked in a reptile house where humans gawk at them like they're monsters, a group of Australia's deadliest creatures plot a daring escape from their zoo to the Outback.",
       "Img": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSasMKAzH6JkUVdmlDMYlaMD0FhR4CwZTRZxrAieFduPkdDXC5c",
       "IMDb RATING": "6.7",

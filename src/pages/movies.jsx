@@ -1,6 +1,7 @@
 import React,{useEffect,useState} from "react";
 import "./Style/movie.css";
 import MovieCard from "./components/movieCard";
+import { Link } from "react-router-dom";
 
 export default function Movies() {
 
@@ -15,11 +16,12 @@ export default function Movies() {
     fetch('http://localhost:3000/trendingmovies')
     .then(Response=> Response.json())
     .then(trendMovies=>settrendMovies(trendMovies));
+
   }
   ,[]);
 
 
-  const moviedetail = movies.map(detail=> <MovieCard title={detail.Title} image={detail.Img} caption={detail.Summary} />) ;
+  const moviedetail = movies.map(detail=> <MovieCard  title={detail.Title} slug={detail.Slug} image={detail.Img} caption={detail.Summary} />) ;
   const TrendMovie = trendMovies.map(detail=> <MovieCard title={detail.Title} image={detail.Img} caption={detail.Summary} />) ;
 
 
@@ -38,19 +40,18 @@ export default function Movies() {
       <div>
         <div className="flex justify-between mt-4 items-baseline ">
           <h1 className="sm:text-lg font-semibold">Recently Movies</h1>
-          <span className="sm:text-sm text-blue-600">See More</span>
+          <Link to="moremovie"><span className="sm:text-sm text-blue-600">See More</span></Link>
         </div>
 
 
 
         <div className=" flex scroll w-full mt-4">
-
+          
           {!movies.length ? <h3>Loading Movie ...</h3> : 
           <>
           {moviedetail}
           </>
           }
-
 
         </div>
       </div>
@@ -65,15 +66,13 @@ export default function Movies() {
 
         <div className=" flex scroll w-full mt-4">
 
-  
         {!movies.length ? <h3>Loading Movie ...</h3> : 
           <>
           {TrendMovie}
           </>
           }
 
-        </div>
-        
+        </div> 
       </div>
 
       <div>
