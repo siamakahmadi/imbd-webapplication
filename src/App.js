@@ -5,6 +5,7 @@ import Shows from "./pages/shows";
 import { Route, Routes } from "react-router-dom";
 import Navigation from "./pages/components/navigation";
 import Header from './pages/components/header'
+import SinglePage from './pages/components/singlePage'
 function App() {
   return (
     
@@ -16,6 +17,8 @@ function App() {
             <Route path="/" element={<Movies />} />
             <Route path="shows" element={<Shows />} />
             <Route path="news" element={<News />} />
+
+            <Route path="single/:slug" element={<SinglePage/>}/>
           </Routes>
           </div>
         </div>

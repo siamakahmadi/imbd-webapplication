@@ -1,10 +1,13 @@
 import React from "react";
 import {Link} from 'react-router-dom'
 export default function MovieCard({ image, title, caption,slug }) {
+
   return (
     
+    
+
       <div>
-        <Link to={`/single/Movie/${title}`}>
+        <Link to={`/single/${slug}`} key={slug}>
         <div className=" w-44 h-55 rounded-md mr-8 ">
           <div className="w-40 h-55">
             <img
