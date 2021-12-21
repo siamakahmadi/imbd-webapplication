@@ -11,9 +11,8 @@ export default function SinglePage() {
     .then(Response=> Response.json())
     .then(movies=>setmoviesContent(movies));
     
-  },[]);
+  },[Slug]);
   const MoviesDetails = moviesContent.map(detail=> <MovieSinglePage Title={detail.Title} Summary={detail.Summary} Img={detail.Img} Description={detail.Description} Time={detail.Time} Genres={detail.Genres} />) ;
-  // const moviedetail = movies.map(detail=> <MovieCard  title={detail.Title} slug={detail.Slug} image={detail.Img} caption={detail.Summary} />) ;
 
   return (
     <div> 
