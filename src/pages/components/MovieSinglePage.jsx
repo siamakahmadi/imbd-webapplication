@@ -10,6 +10,8 @@ export default function MovieSinglePage({Title,Summary,Img,Description,Time,Genr
             <h1>{Time}</h1>
             <h1>{Genres}</h1>
             <h1>{Actors}</h1>
+            <h1>{Actors}</h1>
+
 
         </div>
     )
