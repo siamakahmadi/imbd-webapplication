@@ -1,0 +1,20 @@
+.background{
+    background: linear-gradient(3.76deg, #00051F 2.91%, #00051F 83.39%, rgba(0, 5, 31, 0) 96.76%);
+}
+.movieIMG{
+    position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.iconBackground {
+    background-repeat: no-repeat;
+    background-position: center left 5px;
+}
+
+.backIcon{
+background-image: url('../../Style/icon/linear/arrow-left.svg');
+}
+.heartIcon{
+    background-image: url('../../Style/icon/linear/heart.svg');
+}
